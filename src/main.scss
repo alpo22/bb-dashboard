@@ -1,0 +1,20 @@
+$black: rgb(30, 30, 30);
+$white: rgb(203, 203, 203);
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: sans-serif;
+  font-size: 14px;
+
+  a {
+    color: $white;
+  }
+
+  table th {
+    background-color: $black;
+    border-bottom: 1px solid $white;
+    position: sticky;
+    top: 0;
+  }
+}
